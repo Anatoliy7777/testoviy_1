@@ -1,0 +1,87 @@
+:rood {
+    --primary-text-color: #212121;
+    --title-white-color: #E5E5E5;
+    --accent-color: #2196F3;
+#
+}
+
+
+body {
+  color: var (--primary-text-color);
+  background-color: #ffffff;
+}
+
+/* цвет основного текста #2196F3 */
+
+/* вторичный цвет #212121 */
+
+/* белый цвет #ffffff */
+
+/* акцент синий #2196F3 */
+
+/* основной цвет фона #ffffff */
+
+/* вторичный цвет фона #Е5Е5Е5 */
+
+ul {
+  list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+/* site nav */
+
+.site nav a {
+    color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #000000;
+}
+
+/* герой */
+
+.hero-title
+
+{
+    color: #212121
+}
+
+/* section */
+
+.section-title,
+    color: #212121;
+}
+
+/* button */
+
+.button {
+    color: var(--accent-color);
+    background-color: var(--title-white-color:);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--title-white-color)
+    border-color: transparent;
+}
+
+.btn {
+    display: inline-blok;
+    padding: 20px 40px;
+    background-color: #tomato;
+    color: #white;
+    text-transform: none;
+}
+
+
+
+
+
+

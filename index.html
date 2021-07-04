@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
     <title>WebStudio_1</title>
 </head>
-<body>
-    <header>
+<body class="page">
+    <a href="" class="test-link">Тест линк</a>
+    <!-- Шапка сайта -->
+    <header class="page-header">
         <nav>
-            <a href="./images/logo/WebStudio.svg" alt="WebStudio"></a>
-            <img src="./images/logo/WebStudio.svg" alt="WebStudio"/>
-            <ul>
-                <li> <a href="студия">студия</a></li>
-                <li> <a href="портфолио">портфолио</a></li>
-                <li> <a href="контакты">контакты</a></li>
+            <a href="./images/logo/WebStudio.svg" class="logo">
+                <img src="./images/logo/WebStudio.svg" alt="WebStudio" /></a>
+            <ul class="site-nav list">
+                <li><a href="студия" class="link">студия</a></li>
+                <li><a href="портфолио" class="link">портфолио</a></li>
+                <li><a href="контакты" class="link">контакты</a></li>
             </ul>
-            <ul>
-                <li> <a email="info@devstudio.com">info@devstudio.com</a></li>
-                <li> <a tel="+38 0961111111">+38 0961111111</a></li>
+            <ul class="auth-nav list">
+                <li><a email="info@devstudio.com">info@devstudio.com</a></li>
+                <li><a tel="+38 0961111111">+38 0961111111</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <H1> Эффективные решения для вашего бизнеса</H1>
-            <a href="Заказать услугу">заказать услугу</a>
+        <!-- герой -->
+        <section class="hero">
+            <H1 class="hero-title"> Эффективные решения для вашего бизнеса</H1>
+            <a href="Заказать услугу" class="button">заказать услугу</a>
+            <a href="" class="btn">Нажми меня</a>
+
+        
         </section>
-        <section>
-            <h2>особенности</h2>
+        <!-- приемущества -->
+        <section class="section">
+            <h2 class="section-title">особенности</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -48,8 +56,9 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <!-- чем занимаются -->
+        <section class="section">
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./images/svoystvo/box1.png" alt="набор текста" width="270"/>
@@ -61,28 +70,29 @@
                     <img src="./images/svoystvo/box3.png" alt="новыетехнологии" width="270"/>
                 </li>
             </ul>
-        </section>
-        <section>
-            <h2>Наша команда</h2>
+        </section >
+        <!-- команда -->
+        <section class="section">
+            <h2 class="section">Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./images/comand/team_card_1.png" alt="Игорь Демьяненко" width="270"/>
+                    <img src="./images/comand/team_card_1.png" alt="Игорь Демьяненко" width="270">
                 </li>
                 <li>
-                    <img src="./images/comand/team_card_2.png " alt="Ольга Репина" width="270"/>
+                    <img src="./images/comand/team_card_2.png " alt="Ольга Репина" width="270">
                 </li>
                 <li>
-                    <img src="./images/comand/team_card_3.png" alt="Николай Тарасов" width="270"/>
+                    <img src="./images/comand/team_card_3.png" alt="Николай Тарасов" width="270">
                 </li>
                 <li>
-                    <img src="./images/comand/team_card_4.png" alt="Михаил Ермаков" width="270"/>
+                    <img src="./images/comand/team_card_4.png" alt="Михаил Ермаков" width="270">
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <section>
-            <img src="./images/logo/WebStudio.svg" alt="фото"/>
+        <sectionclass="section">
+            <img src="./images/logo/WebStudio.svg" alt="фото">
             <address>
                 <p>г. Киев, пр-т Леси Украинки, 26</p>
             </address>
@@ -90,6 +100,7 @@
                 <li> <a email="info@devstudio.com">info@devstudio.com</a></li>
                 <li> <a tel="+38 0961111111">+38 0961111111</a> </li>
             </ul>
+            <h1 class="title"></h1>
         </section>
     </footer>
 </body>
